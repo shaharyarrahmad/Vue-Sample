@@ -93,20 +93,13 @@ overflow: hidden;
 }
 .bg-2{
   background: transparent linear-gradient(134deg, #E6FFFA 0%, #EBF4FF 100%) 0% 0% no-repeat padding-box;
-  /* z-index:30;
-  position: relative; */
+
 }
 .img-3, .div3{
   shape-outside: margin-box;
 }
 
-.img2{
-  float: right;
-  margin-top: -50px;
-}
 .custom-layer{
-  /* position: absolute; */
-  position: relative;
   z-index:10;
   position: relative;
 }

@@ -20,5 +20,4 @@ export default {
   font-family: 'Lato', sans-serif;
   background: transparent linear-gradient(141deg, #EBF4FF 0%, #E6FFFA 100%) 0% 0% no-repeat padding-box;
 }
-
 </style>
