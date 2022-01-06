@@ -93,8 +93,8 @@ overflow: hidden;
 }
 .bg-2{
   background: transparent linear-gradient(134deg, #E6FFFA 0%, #EBF4FF 100%) 0% 0% no-repeat padding-box;
-  z-index:10;
-  position: relative;
+  /* z-index:30;
+  position: relative; */
 }
 .img-3, .div3{
   shape-outside: margin-box;
@@ -107,23 +107,23 @@ overflow: hidden;
 .custom-layer{
   /* position: absolute; */
   position: relative;
-  z-index:50;
+  z-index:10;
   position: relative;
 }
 .circle{
   border-radius: 50%;
-  width: 303px;
+  width: 350px;
   height: 303px;
   background-color: #F7FAFC;
   display: inline-block;
   margin-left: -101px;
-  margin-top: -60px;
+  margin-top: -70px;
   position: relative;
-  z-index: 54;
+  z-index: 30;
 }
 
 .div4{
-  z-index: 200;
+  z-index: 33;
   position: relative;
 }
 </style>
