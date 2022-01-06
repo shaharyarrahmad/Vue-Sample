@@ -18,7 +18,7 @@
     </p>
   <p class="text text2 mb-6 ml-5">{{data.labels[1]}}</p>
   </div>
-  <img class="-mb-10" :src="data.images[1]" :class="data.images[1].includes('3.2') ? 'pl-20 pr-5':(data.images[1].includes('2.2')? 'pl-10 img2 pr-10 pb-10':'pl-24 pr-11')" />
+  <img class="-mb-10 img2" :src="data.images[1]" :class="data.images[1].includes('3.2') ? 'pl-20 pr-5':(data.images[1].includes('2.2')? 'pl-10 img2 pr-10 pb-10':'pl-24 pr-11')" />
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="-m-5 mt-5 custom-layer">
     <path fill="#fff" fill-opacity="1" class="custom-layer" d="M0,64L60,80C120,96,240,128,360,160C480,192,600,224,720,218.7C840,213,960,171,1080,144C1200,117,1320,107,1380,101.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
 
@@ -53,10 +53,14 @@ export default {
 <style scoped>
 
 .custom{
-  position: relative;
+  /* position: relative; */
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+.img2{
+  float: right;
+  margin-top: -50px;
 }
 .image-wrapping
 {
@@ -95,7 +99,10 @@ overflow: hidden;
   background: transparent linear-gradient(134deg, #E6FFFA 0%, #EBF4FF 100%) 0% 0% no-repeat padding-box;
 
 }
-.img-3, .div3{
+.img-3{
+  shape-outside: margin-box;
+}
+ .div3{
   shape-outside: margin-box;
 }
 
