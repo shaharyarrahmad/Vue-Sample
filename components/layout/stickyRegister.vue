@@ -2,7 +2,7 @@
 <div class="block px-5 podbar">
   <t-button class="gradiant my-5">
    <p class="m-1">
-         Kostenlos Registrieren
+         Registor Now
     </p>
   </t-button>
 </div>

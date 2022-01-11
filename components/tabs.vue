@@ -2,13 +2,13 @@
   <div class="pos">
     <ul class="flex m-5 py-3">
     <li class="rounded-l-xl border px-10 py-3"  :class="curr == 1 ? 'active' : ''">
-        <a  aria-current="page" @click="selected(1)">Arbeitnehmer</a>
+        <a  aria-current="page" @click="selected(1)">Employee</a>
     </li>
     <li class="border px-10 py-3" :class="curr == 2 ? 'active' : ''">
-        <a class="" @click="selected(2)" >Arbeitgeber</a>
+        <a class="" @click="selected(2)" >Employer</a>
     </li>
     <li class="border px-10 rounded-r-xl py-3" :class="curr == 3 ? 'active' : ''">
-        <a class="" @click="selected(3)">Temporärbüro</a>
+        <a class="" @click="selected(3)">Remote</a>
     </li>
 </ul>
   </div>

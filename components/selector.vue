@@ -19,21 +19,21 @@ export default {
       selectedTab: 1,
       tabData : [{
 
-        header: 'Drei einfache Schritte',
-        h2: 'zu deinem neuen Job',
-        labels: ['Erstellen dein Lebenslauf', 'Erstellen dein Lebenslauf', 'Mit nur einem Klick bewerben'],
+        header: '3 Easy Steps ',
+        h2: 'To get Hired for your next job',
+        labels: ['Create Your Resume', 'Apply with just one Click', 'Get Hired'],
         images: ['/1.1.png', '/1.2.png', '/1.3.png'],
       },
       {
-        header: 'Drei einfache Schritte',
-        h2: 'zu deinem neuen Mitarbeiter',
-        labels: ['Erstellen dein Unternehmensprofil', 'Erstellen ein Jobinserat', 'Wähle deinen neuen Mitarbeiter aus'],
+        header: '3 Easy Steps to Hire Talent',
+        h2: 'For empty seats in your company',
+        labels: ['Create Company Profile', 'Create Job posting from Templetes', 'Hire Best Talent'],
         images: ['/1.1.png', '/2.2.png', '/2.3.png'],
       },
       {
-        header: 'Drei einfache Schritte zur',
-        h2: 'Vermittlung neuer Mitarbeiter',
-        labels: ['Erstellen dein Unternehmensprofil', 'Erhalte Vermittlungs- angebot von Arbeitgeber', 'Vermittlung nach Provision oder Stundenlohn'],
+        header: '3 Easy Steps',
+        h2: 'For Remote Talent',
+        labels: ['Create Your Profile', 'Apply for Remote Job Posting', 'Bet Paid by Hours or Fixed Salary'],
         images: ['/1.1.png', '/3.2.png', '/3.3.png'],
       }]
     }
